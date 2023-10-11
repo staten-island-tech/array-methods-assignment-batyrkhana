@@ -1,4 +1,4 @@
-const NFLPlayers = [
+const players = [
     {
         firstName: "Mike",
         lastName: "Evans",
@@ -6,7 +6,7 @@ const NFLPlayers = [
         Number: 13,
         Position: "Receiver",
         Team: "Tampa Bay",
-        Abilities: [Catch, Run, Jump],
+        Abilities: ["Catch", "Run", "Jump", "Complain"],
     },
     {
         firstName: "Tom",
@@ -15,7 +15,7 @@ const NFLPlayers = [
         Number: 12,
         Position: "Quarterback",
         Team: "Tampa Bay",
-        Abilities: [Throw, Run],
+        Abilities: ["Pass", "Run", "Scare", "Complain"],
     },
     {
         firstName: "Nick",
@@ -24,6 +24,7 @@ const NFLPlayers = [
         Number: 24,
         Position: "Runningback",
         Team: "Cleveland Browns",
+        Abilities: ["Pass", "Run", "Block", "Catch"],
     },
     {
         firstName: "Justin",
@@ -32,7 +33,7 @@ const NFLPlayers = [
         Number: 9,
         Position: "Kicker",
         Team: "Baltimore Ravens",
-        Abilities: [Kick],
+        Abilities: ["Kick", "Jump", "Relax", "Run"],
     },
     {
         firstName: "Oddel",
@@ -41,7 +42,10 @@ const NFLPlayers = [
         Number: 3,
         Position: "Receiver",
         Team: "Baltimore Ravens",
+        Abilities: ["Catch", "Run", "Throw", "Jump"],
     },
 ]
 
-NFLPlayers.forEach((player)=>console.log(player.firstName))
+players.forEach((player)=>console.log(player.firstName)),
+console.log((player.firstName)),
+const oldestPlayers =
