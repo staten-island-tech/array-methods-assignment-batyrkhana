@@ -45,8 +45,6 @@ const players = [
         abilities: ["Catch", "Run", "Throw", "Jump"],
     }
 ]
-players.forEach((player) => {
-    console.log(player.firstName + " " + player.lastName)
-});
+players.forEach((player) => {console.log(player.firstName + " " + player.lastName)});
 players.forEach((player) => player.abilities.forEach((ability) => console.log(ability)));
 console.log(players.filter((player) => player.age >= 33));
